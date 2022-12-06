@@ -20,7 +20,7 @@ btnChangeColor.addEventListener("click", onBtnClick)
 
 function onBtnClick() {
   document.body.style.backgroundColor = getRandomHexColor();
-  color.textContent = getRandomHexColor();
+  color.textContent = document.body.style.backgroundColor;
 }
 
 
